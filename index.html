@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa culturama </title>
+</head>
+<body>
+    <header>
+        <h1>Pesquisa online</h1>
+    </header>
+
+    <section>
+
+        <form action="" method="get">
+
+            <fieldset>
+                <h2>Informações pessoais</h2>
+
+                <label for="userName">Nome:</label>
+                <input type="text" name="userName" id="userName" required> <br>
+
+                <label for="userAge">Idade:</label>
+                <input type="number" name="userAge" id="userAge" required min="12" max="100"> <br>
+
+                <label for="birthdate">Data de nascimento:</label>
+                <input type="date" name="birthdate" id="birthdate"> <br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required> <br>
+
+                <label for="Phonenamber">Telefone:</label>
+                <input type="tel" name="Phonenamber" id="Phonenamber" pattern="[0-9]{11}" placeholder="DDD + numero"> <br>
+
+                <label for="usserPhoto">Foto de perfil:</label>
+                <input type="file" name="usserPhoto" id="usserPhoto" accept="image/*">
+
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+</html>
